@@ -1,0 +1,36 @@
+{
+	"name": "generator-mean-six",
+	"version": "0.0.1",
+	"description": "A Yeoman generator for the fullstack MEAN in ES6",
+	"private": false,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mattludwigs/generator-mean-six"
+	},
+	"keywords": [
+		"yeoman-generator",
+		"bootstrap",
+		"angular",
+		"express",
+		"es6",
+		"node",
+		"yo",
+		"yeoman"
+	],
+	"author": "Matt Ludwigs <mattludwigs@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+	"url": "https://github.com/mattludwigs/generator-mean-six/issues"
+	},
+	"homepage": "https://github.com/mattludwigs/generator-mean-six",
+	"dependencies": {
+		"js-yaml": "^3.2.2",
+		"yeoman-generator": "^0.17.5"
+	},
+	"devDependencies": {
+		"mocha": "^1.21.4"
+	},
+	"scripts": {
+		"test": "./node_modules/.bin/mocha"
+	}
+}
